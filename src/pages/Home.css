@@ -1,0 +1,15 @@
+.home-block {
+    @apply max-lg:py-4;
+}
+.home-block-body {
+    @apply max-w-[1000px] p-10 m-auto flex flex-col justify-center items-center max-lg:p-5 max-lg:pt-20;
+}
+.home-block-title {
+    @apply text-4xl;
+}
+.home-block-desc {
+    @apply text-xl font-mono mt-8 text-center;
+}
+.home-block-subtitle {
+    @apply text-2xl py-5;
+}

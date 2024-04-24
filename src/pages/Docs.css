@@ -1,0 +1,33 @@
+.doc-title {
+    @apply font-bold text-2xl my-4 max-lg:text-center;
+}
+.doc-subtitle {
+    @apply font-bold text-xl my-4;
+}
+.doc-subtitle::before {
+    content: '#';
+    @apply text-green-500 mr-2;
+}
+.doc-p {
+    @apply my-4;
+}
+.doc-table th,
+.doc-table td {
+    @apply border p-2;
+}
+.doc-img {
+    @apply my-4 mx-auto max-w-full;
+}
+.doc-list {
+    @apply list-disc list-inside;
+}
+.doc-code {
+    @apply p-1 bg-slate-100 rounded;
+}
+.doc-table-bordered > thead {
+    @apply bg-blue-50;
+}
+.doc-table-bordered > thead > tr > th,
+.doc-table-bordered > tbody > tr > td {
+    @apply border p-2;
+}

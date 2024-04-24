@@ -1,0 +1,11 @@
+{
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx", "*.js", "*.json", "*.html", "*.css"],
+            "options": {
+                "tabWidth": 4,
+                "singleQuote": true
+            }
+        }
+    ]
+}

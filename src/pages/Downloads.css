@@ -1,0 +1,7 @@
+.logo-app {
+    @apply inline-block w-32 h-32 rounded-3xl bg-center bg-contain bg-no-repeat shadow-lg;
+    background-image: url("/images/logo-app.png");
+}
+.logo-editor {
+    background-image: url("/images/logo-editor.png");
+}

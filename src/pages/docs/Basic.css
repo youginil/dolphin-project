@@ -1,0 +1,15 @@
+.spell-example {
+    @apply text-blue-500;
+}
+.spell-example::before {
+    content: '[';
+}
+.spell-example::after {
+    content: ']';
+}
+.spell-example.error {
+    @apply text-red-500;
+}
+.spell-example.correct {
+    @apply text-green-500;
+}
